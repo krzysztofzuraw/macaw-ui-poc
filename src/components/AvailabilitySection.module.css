@@ -1,0 +1,28 @@
+.channel {
+  --padding: var(--space-1) 0;
+  --border-color: var(--color-neutral-2);
+
+  border-top: 1px solid var(--border-color);
+}
+
+.form {
+  --padding: var(--space-1) 0;
+}
+
+.header {
+  --padding: var(--space-1) 0;
+  --justify: space-between;
+}
+
+.details {
+  --bg-color: var(--color-neutral-1);
+
+  background-color: var(--bg-color);
+}
+
+.active {
+  --bg-color: var(--color-neutral-2);
+
+  background-color: var(--bg-color);
+  border-radius: 6px 0 0 6px;
+}

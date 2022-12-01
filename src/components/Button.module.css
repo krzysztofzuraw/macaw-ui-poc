@@ -1,0 +1,9 @@
+.button {
+  --border-color: var(--color-neutral-2);
+
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0px 1px 1px rgba(24, 41, 59, 0.12);
+  cursor: pointer;
+}

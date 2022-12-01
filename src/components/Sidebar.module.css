@@ -1,0 +1,13 @@
+.sidebar {
+  --padding: var(--space-3);
+  --border-color: var(--color-neutral-2);
+
+  grid-column: 1;
+  border-right: 1px solid var(--border-color);
+}
+
+.list {
+  --space: var(--space-5);
+  list-style: none;
+  padding: 0;
+}

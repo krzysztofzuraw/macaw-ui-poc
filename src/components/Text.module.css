@@ -1,0 +1,60 @@
+.text {
+  --size: var(--font-size-1, 1rem);
+  --line-height: var(--line-height-1, 1.5);
+  --weight: 420;
+  --text-color: var(--color-black-1);
+
+  font-size: var(--size);
+  line-height: var(--line-height);
+  font-weight: var(--weight);
+  color: var(--text-color);
+}
+
+.text[data-variant="12/18"] {
+  --size: var(--font-size-1);
+  --line-height: var(--line-height-1);
+}
+
+.text[data-variant="12/20"] {
+  --size: var(--font-size-1);
+  --line-height: var(--line-height-2);
+}
+
+.text[data-variant="14/22"] {
+  --size: var(--font-size-2);
+  --line-height: var(--line-height-3);
+}
+
+.text[data-variant="16/24"] {
+  --size: var(--font-size-3);
+  --line-height: var(--line-height-4);
+}
+
+.text[data-variant="20/24"] {
+  --size: var(--font-size-4);
+  --line-height: var(--line-height-4);
+}
+
+.text[data-weight="370"] {
+  --weight: 370;
+}
+
+.text[data-weight="420"] {
+  --weight: 420;
+}
+
+.text[data-weight="460"] {
+  --weight: 460;
+}
+
+.text[data-weight="560"] {
+  --weight: 560;
+}
+
+.text[data-color="black"] {
+  --text-color: var(--color-black-1);
+}
+
+.text[data-color="neutral"] {
+  --text-color: var(--color-neutral-3);
+}

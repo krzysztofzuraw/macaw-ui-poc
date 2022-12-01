@@ -1,0 +1,17 @@
+.header {
+  --aligment: center;
+  --space: var(--space-5);
+  --border-color: var(--color-neutral-2);
+  --bg-color: var(--color-neutral-1);
+
+  grid-column: 1 / -1;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+}
+
+.info {
+  --border-color: var(--color-neutral-2);
+
+  border-right: 1px solid var(--border-color);
+  width: 232px;
+}

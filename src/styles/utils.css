@@ -1,0 +1,33 @@
+.box {
+  --padding: var(--space-1, 1rem);
+
+  padding: var(--padding);
+}
+
+.stack {
+  --direction: column;
+  --aligment: unset;
+  --justify: flex-start;
+  --space: var(--space-1, 1rem);
+
+  display: flex;
+  flex-direction: var(--direction);
+  justify-content: var(--justify);
+  align-items: var(--aligment);
+  gap: var(--space);
+}
+
+.stack[data-direction="row"] {
+  --direction: row;
+}
+
+.stack[data-direction="column"] {
+  --direction: column;
+}
+
+.card {
+  --border-color: var(--color-neutral-2);
+
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}

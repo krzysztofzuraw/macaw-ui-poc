@@ -1,0 +1,73 @@
+:root {
+  --font: Rubik, sans-serif;
+
+  --min-font-size: 0.1rem;
+  --max-font-size: 0.75rem;
+  --base-font-size: calc(0.5rem + 2vw);
+  --font-size: clamp(var(--min-font-size), var(--base-font-size), var(--max-font-size));
+  --font-size-scale: 1.2;
+  --space-scale: 1.5;
+  --line-height-scale: 0.96;
+
+  --font-size-1: var(--font-size);
+  --font-size-2: calc(var(--font-size-1) * var(--font-size-scale));
+  --font-size-3: calc(var(--font-size-2) * var(--font-size-scale));
+  --font-size-4: calc(var(--font-size-3) * var(--font-size-scale));
+  --font-size-5: calc(var(--font-size-4) * var(--font-size-scale));
+  --font-size-6: calc(var(--font-size-5) * var(--font-size-scale));
+  --font-size-7: calc(var(--font-size-6) * var(--font-size-scale));
+  --font-size-8: calc(var(--font-size-7) * var(--font-size-scale));
+  --font-size-9: calc(var(--font-size-8) * var(--font-size-scale));
+  --font-size-10: calc(var(--font-size-9) * var(--font-size-scale));
+
+  --line-height-1: 1.5;
+  --line-height-2: calc(var(--line-height-1) * var(--line-height-scale));
+  --line-height-3: calc(var(--line-height-2) * var(--line-height-scale));
+  --line-height-4: calc(var(--line-height-3) * var(--line-height-scale));
+  --line-height-5: calc(var(--line-height-4) * var(--line-height-scale));
+  --line-height-6: calc(var(--line-height-5) * var(--line-height-scale));
+  --line-height-7: calc(var(--line-height-6) * var(--line-height-scale));
+  --line-height-8: calc(var(--line-height-7) * var(--line-height-scale));
+  --line-height-9: calc(var(--line-height-8) * var(--line-height-scale));
+  --line-height-10: calc(var(--line-height-9) * var(--line-height-scale));
+
+  --space-1: clamp(0.4rem, 1vw, 0.5rem);
+  --space-2: calc(var(--space-1) * var(--space-scale));
+  --space-3: calc(var(--space-2) * var(--space-scale));
+  --space-4: calc(var(--space-3) * var(--space-scale));
+  --space-5: calc(var(--space-4) * var(--space-scale));
+  --space-6: calc(var(--space-5) * var(--space-scale));
+  --space-7: calc(var(--space-6) * var(--space-scale));
+  --space-8: calc(var(--space-7) * var(--space-scale));
+  --space-9: calc(var(--space-8) * var(--space-scale));
+  --space-10: calc(var(--space-9) * var(--space-scale));
+  --space-11: calc(var(--space-10) * var(--space-scale));
+  --space-12: calc(var(--space-11) * var(--space-scale));
+  --space-13: calc(var(--space-12) * var(--space-scale));
+
+  --color-neutral-1: hsl(210deg 14% 97% / 100%);
+  --color-neutral-2: hsl(211deg 42% 16% / 12%);
+  --color-neutral-3: hsl(210deg 10% 56% / 100%);
+  --color-black-1: hsl(211deg 42% 16% / 100%);
+}
+
+html {
+  font-family: Rubik, sans-serif;
+  font-size: 100%;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: 240px 3fr;
+  grid-template-rows: 72px 1fr;
+  height: 100vh;
+}
+
+main {
+  padding: var(--space-5);
+
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-8);
+}

@@ -1,0 +1,22 @@
+.wrapper {
+  grid-column: 1;
+}
+
+.section {
+  --justify: space-between;
+  --aligment: center;
+  --padding: var(--space-2) 0;
+  --bg-color: var(--color-neutral-1);
+
+  border-bottom: 1px solid var(--border-color);
+}
+
+.editType {
+  --aligment: center;
+}
+
+.sleeve {
+  --justify: space-between;
+  --aligment: center;
+  --padding: var(--space-1) 0;
+}

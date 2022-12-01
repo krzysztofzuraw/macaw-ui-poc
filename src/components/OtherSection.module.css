@@ -1,0 +1,17 @@
+.wrapper {
+  grid-column: 1;
+}
+
+.button {
+  align-self: flex-start;
+}
+
+.section {
+  --justify: space-between;
+
+  border-bottom: 1px solid;
+}
+
+.privateMetadata {
+  --justify: space-between;
+}
